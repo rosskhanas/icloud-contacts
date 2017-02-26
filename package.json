@@ -1,0 +1,46 @@
+{
+  "name": "icloud-contacts",
+  "version": "0.0.1-rc.0",
+  "description": "An iCloud contacts API.",
+  "keywords": [
+    "icould",
+    "contacts",
+    "management",
+    "api"
+  ],
+  "author": {
+    "name": "Ross Khanas",
+    "email": "rtkhanas@gmail.com"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "lint": "eslint src",
+    "test": "mocha --recursive --compilers js:babel-core/register",
+    "build": "npm run lint && npm test && npm run clean && babel src --out-dir lib"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rtkhanas/pure-validation.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "icloud-session": "^0.0.1-rc.0",
+    "mout": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.1.0",
+    "rimraf": "^2.5.3"
+  }
+}

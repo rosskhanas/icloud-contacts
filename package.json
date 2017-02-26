@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rtkhanas/pure-validation.git"
+    "url": "git@github.com:rtkhanas/icloud-contacts.git"
   },
   "files": [
     "lib"

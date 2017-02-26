@@ -59,7 +59,6 @@ iCloud.login({
   }
   getAllContacts(session, getContactsCallback);
 });
-
 `;
     return (
       <AppContainer>
@@ -73,7 +72,7 @@ iCloud.login({
         <Header>
           <Title>iCloud Contacts</Title>
           <Paragraph>
-            Simple QR Code for React and React Native.
+            An iCloud contacts API.
           </Paragraph>
           <Paragraph>
             A project by <Link href="https://rtkhanas.github.io/">Ross Khanas</Link>.

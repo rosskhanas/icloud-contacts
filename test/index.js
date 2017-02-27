@@ -1,7 +1,8 @@
 import assert from 'assert';
+import { getAllContacts } from '../src';
 
-describe('#indexOf()', () => {
-  it('should return -1 when the value is not present', () => {
-    assert.equal(-1, [1, 2, 3].indexOf(4));
+describe('typeof', () => {
+  it('getAllContacts is a function', () => {
+    assert.equal(typeof getAllContacts === 'function', true);
   });
 });

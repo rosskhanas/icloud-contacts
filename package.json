@@ -31,7 +31,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "icloud-session": "^0.0.1-rc.0",
+    "icloud-session": "^0.0.1-rc.2",
     "mout": "^1.0.0"
   },
   "devDependencies": {

@@ -14,6 +14,15 @@ An iCloud contacts API.
 yarn add icloud-contacts
 ```
 
+### API
+
+#### getAllContacts
+
+prop       | type        | required | description
+-----------|-------------|----------|-------------
+`session`  | `object`    | true     | An object received from a `icloud-session` library
+`callback` | `func`      | false    | 
+
 ### License
 
 MIT

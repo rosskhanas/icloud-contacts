@@ -1,6 +1,6 @@
 {
   "name": "icloud-contacts",
-  "version": "0.0.1-rc.0",
+  "version": "0.0.1-rc.1",
   "description": "An iCloud contacts API.",
   "keywords": [
     "icould",

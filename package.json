@@ -16,6 +16,8 @@
     "demo": "cd demo && yarn start",
     "demo:build": "cd demo && yarn run build",
     "demo:deploy": "gh-pages -d demo/build",
+    "demo-nodejs-login": "npm run build && cd demo-nodejs && node login",
+    "demo-nodejs-load": "npm run build && cd demo-nodejs && node load",
     "clean": "rimraf lib",
     "lint": "eslint src",
     "test": "mocha --recursive --compilers js:babel-core/register",
@@ -31,8 +33,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "icloud-session": "^0.0.1-rc.2",
-    "mout": "^1.0.0"
+    "icloud-session": "^0.0.1-rc.3"
   },
   "devDependencies": {
     "babel": "^6.3.26",
